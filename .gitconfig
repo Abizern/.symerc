@@ -1,0 +1,14 @@
+[user]
+	name = Abizer Nasir
+	email = abizern@abizern.org
+[core]
+	autocrlf = input
+	editor = emacsclient
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	ui = auto
+	interactive = auto
+[github]
+	user = abizern

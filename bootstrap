@@ -9,10 +9,10 @@ sudo apt-get install -y emacs24-nox curl tree unzip zip mosh zsh
 
 cd $(dirname $0)
 
-# Use a real shell
-chsh -s $(which zsh)
-
 # Copy over resources
 cp .zshrc ~
 cp .gitconfig ~
 cp .tmux.conf ~
+
+# Copy over my .emacs.d
+sudo -iu syme git clone git://github.com/abizern/prelude.git ~/.emacs.d

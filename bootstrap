@@ -9,9 +9,6 @@ sudo apt-get install -y emacs24-nox curl tree unzip zip mosh zsh
 
 cd $(dirname $0)
 
-# Use a real shell
-chsh -s $(which zsh)
-
 # Copy over resources
 cp .zshrc ~
 cp .gitconfig ~

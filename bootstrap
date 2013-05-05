@@ -9,9 +9,6 @@ sudo apt-get install -y emacs24-nox curl tree unzip zip mosh zsh
 
 cd $(dirname $0)
 
-# This installs my .emacs.d
-curl -L https://github.com/abizern/prelude/raw/master/utils/installer.sh | sh
-
 # Use a real shell
 chsh -s $(which zsh)
 

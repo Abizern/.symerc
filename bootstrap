@@ -10,9 +10,8 @@ sudo apt-get install -y emacs24-nox curl tree unzip zip mosh
 
 cd $(dirname $0)
 
-cp .emacs ~
+
 cp .bashrc ~
-cp .gemrc ~
+cp .zshrc ~
 cp .gitconfig ~
-cp .profile ~
 cp .tmux.conf ~

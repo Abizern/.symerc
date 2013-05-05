@@ -1,0 +1,18 @@
+#-*-mode:shell-script-*-
+#!/bin/bash
+
+set -e
+
+# Not really using these yet:
+PROJECT=$1
+
+sudo apt-get install -y emacs24-nox curl tree unzip zip mosh
+
+cd $(dirname $0)
+
+cp .emacs ~
+cp .bashrc ~
+cp .gemrc ~
+cp .gitconfig ~
+cp .profile ~
+cp .tmux.conf ~

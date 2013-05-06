@@ -15,4 +15,7 @@ cp .gitconfig ~
 cp .tmux.conf ~
 
 # Copy over my .emacs.d
-sudo -iu syme git clone git://github.com/abizern/prelude.git ~/.emacs.d
+sudo -iu syme git clone -b basic git://github.com/abizern/prelude.git ~/.emacs.d
+
+# Once that's done, run emacs in daemon mode.
+emacs --daemon

@@ -50,10 +50,12 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 # Set up a rake alias
 alias rake="noglob rake"
 
-
-# Emacs aliases
-# -------------
-alias em='emacsclient -nc' # Requires M-x server-start or (server-start) in .emacs
+# Emacs 
+# -----
+alias ed='emacs --daemon'
+# These require emacs server to be running
+alias em='emacsclient -n'
+alias et='emacsclient -t'
 alias ek="emacsclient -e '(kill-emacs)'"
 
 # Make sure colours are supported in terminal mode

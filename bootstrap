@@ -17,5 +17,9 @@ cp .tmux.conf ~
 # Copy over my .emacs.d
 sudo -iu syme git clone -b basic git://github.com/abizern/prelude.git ~/.emacs.d
 
+# Enable vim
+cp .vimrc ~
+sudo -iu syme git clone --recursive git://github.com/Abizern/vimdotfiles.git ~/.vim
+
 # Once that's done, run emacs in daemon mode.
 emacs --daemon

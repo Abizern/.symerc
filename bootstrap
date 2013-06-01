@@ -23,4 +23,4 @@ sudo cp hub /usr/local/bin
 git clone -b basic git://github.com/abizern/prelude.git ~/.emacs.d
 
 # Copy over my vim dotfiles dir
-syme git clone --recursive git://github.com/Abizern/vimdotfiles.git ~/.vim
+git clone --recursive git://github.com/Abizern/vimdotfiles.git ~/.vim

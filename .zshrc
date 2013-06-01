@@ -56,6 +56,9 @@ alias rake="noglob rake"
 alias em='emacsclient -nc' # Requires M-x server-start or (server-start) in .emacs
 alias ek="emacsclient -e '(kill-emacs)'"
 
+# Make sure colours are supported in terminal mode
+export TERM=xterm-256color
+
 # Load the function-based completion system.
 autoload -U compinit
 compinit

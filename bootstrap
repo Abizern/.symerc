@@ -17,10 +17,11 @@ cp .vimrc ~
 cp .gemrc ~
 
 # Install hub
+sudo chmod +x hub
 sudo cp hub /usr/local/bin
 
 # Copy over my .emacs.d
-git clone -b basic git://github.com/abizern/prelude.git ~/.emacs.d
+git clone -b basic git://github.com/Abizern/prelude.git ~/.emacs.d
 
 # Copy over my vim dotfiles dir
 git clone --recursive git://github.com/Abizern/vimdotfiles.git ~/.vim
